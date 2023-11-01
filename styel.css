@@ -1,0 +1,138 @@
+body {
+  font-family: "Roboto" , sans-serif;
+ background-image: url("ddddd/wave.jpg");
+ background-position: center  center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ 
+}
+    
+  
+.signup-box {
+  width: 360px;
+  height: 360px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.login-box {
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  appearance: none;
+  border: none;
+  outline: none;
+  border-bottom: .2em solid #E91E63;
+  background: rgba(#E91E63, .2);
+  border-radius: .2em .2em 0 0;
+  padding:.4em;
+  color: #a51847;
+}
+
+
+
+
+.inputlabel {
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1.rem;
+  color: rgb(7, 3, 4);
+}
+.inputfield focus 
+ .form__label {
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: primary;
+    font-weight:700;    
+  }
+   
+
+
+
+
+ button {
+  width: 320px;
+  height: 40px;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+  appearance: none;
+  border: .2em solid #E91E63;
+
+  background: hsl(0 0 0/0);
+  color: #E91E63;
+  border-radius: 2em;
+  transition: 1s;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: #E91E63;
+  filter: drop-shadow(0px 5px 15px #a12637);
+  
+  &:hover, &:focus, &:active{
+    background-color: #E91E63;
+    color: #fff;
+  }
+}
+p {
+   text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.para-2 a {
+  color: #74e657;
+}
+
+.form{
+  display: flex;
+  width: 360px;
+  height: 190px;
+  margin: auto;
+  border-radius: 10px;
+  align-items: center;
+  background-color: rgb(253, 253, 253); 
+}
+.search{
+  display: fixed;
+  margin-top: 10px;
+  font-size: 18px;
+  
+}
